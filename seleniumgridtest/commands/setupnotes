@@ -1,0 +1,7 @@
+Download chromedriver.exe ( your browser version and driver version should match)
+Download geckodriver.exe.
+Place these two in a folder say C:\WebDrivers\bin
+Add the above path to PATH environment variables
+Run the gridrun.bat file to start the hub (please find them at \seleniumgridtest\commands)
+Run the gridrun_node.bat to start the node
+Run the testng.xml file
