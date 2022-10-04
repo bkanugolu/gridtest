@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="classes">
+  <test thread-count="3" name="test(failed)" parallel="classes">
+    <classes>
+      <class name="automation.seleniumgridtest.GridTest1">
+        <methods>
+          <include name="testGrid1"/>
+        </methods>
+      </class> <!-- automation.seleniumgridtest.GridTest1 -->
+      <class name="automation.seleniumgridtest.GridTest2">
+        <methods>
+          <include name="testGrid2"/>
+        </methods>
+      </class> <!-- automation.seleniumgridtest.GridTest2 -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
